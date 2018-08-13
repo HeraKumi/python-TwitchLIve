@@ -13,7 +13,8 @@ try:
             print(f"Channel  :  {channelName}")
             print(f"Viewers  :  {viewers}")
             print(f"Followers:  {followers}")
-
+            # print(f"Channel: {channelName} Viewers: {viewers} Followers: {followers}")
+        
         elif stream == None:
             print('')
     elif sys.version_info.major != 3:
